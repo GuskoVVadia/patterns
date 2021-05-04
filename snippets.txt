@@ -1,0 +1,19 @@
+socket = new Socket("localhost", 8189);
+..
+Scene scene = new Scene(root, 350, 375);
+..
+batch.draw(textures[p.getType().index][frameIndex], p.getPosition().x - 30, p.getPosition().y - 30);
+..
+void methodTwo(float[] array)...
+...
+void methodOne(float[] array)...
+...
+public void render(SpriteBatch batch) {
+   batch.draw(texture, position.x - 128, position.y - 128, 128, 128, 256, 256, scale, scale, angle);
+}
+...
+protected Asteroid newObject() {
+    return new Asteroid(gc);
+}
+...
+Pixmap pixmap = new Pixmap(1280, 20, Pixmap.Format.RGB888);
